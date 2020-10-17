@@ -27,4 +27,4 @@ client.registry
 
 client.on('error', console.error);
 
-client.login('NzIyNjM2ODM4MTkxMjM1MTAz.Xul-AA.GDzAR5mHJNaLBlQNaMh9pQsFS9c');
+client.login('TOKEN HERE');
