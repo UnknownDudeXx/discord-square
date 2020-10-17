@@ -29,11 +29,9 @@ message.channel.send('I am missing the **CREATE_INSTANT_INVITE** permission.\nPl
 }
 console.log(message.author.id);
 	if (message.author.bot) return;
-    if(message.author.id === "407188383480152064") return message.reply("you are blacklisted");
-    if(message.author.id === "723331582970298449") return message.reply("you are blacklisted");
-        if(message.author.id === "703338038511796315") return message.reply("you are blacklisted. this blacklist is NON-appealable.");
-        if(message.guild.id === "746854660345954405") return message.reply("this server is blacklisted");
-				if(message.guild.id === "746771080298889216") return message.reply("this server is blacklisted");
+    if(message.author.id === "ID HERE") return message.reply("you are blacklisted");
+        if(message.author.id === "ID HERE") return message.reply("you are blacklisted. this blacklist is NON-appealable.");
+        if(message.guild.id === "ID HERE") return message.reply("this server is blacklisted");
 // HI
       message.channel.createInvite({ unique: true, temporary: true }).then(invite => {
 	  console.log(message.channel.id);
